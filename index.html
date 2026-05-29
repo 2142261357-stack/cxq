@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas Roguelike</title>
+    <script type="module" crossorigin src="./assets/index-DF7B_BEH.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Cwovv8Bd.css">
+  </head>
+  <body>
+    <main class="game-shell">
+      <section class="game-stage" aria-label="Roguelike playfield">
+        <div class="canvas-frame">
+          <canvas id="game-canvas" width="960" height="560"></canvas>
+          <div id="game-overlay" class="game-overlay"></div>
+        </div>
+        <section class="log-panel" aria-label="Game log">
+          <h2>Log</h2>
+          <ol id="game-log"></ol>
+        </section>
+      </section>
+      <aside class="hud-panel" id="hud" aria-label="Game status"></aside>
+    </main>
+  </body>
+</html>
